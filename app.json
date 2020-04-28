@@ -1,0 +1,16 @@
+{
+  "pages": [
+    "pages/config/config",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/main/main"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#333333",
+    "navigationBarTitleText": "IOT小能手",
+    "navigationBarTextStyle": "white",
+    "backgroundColor": "#333333"
+  },
+  "sitemapLocation": "sitemap.json"
+}

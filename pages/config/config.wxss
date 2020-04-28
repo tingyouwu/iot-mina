@@ -1,0 +1,49 @@
+/* pages/config/config.wxss */
+.page-section{
+  margin-bottom: 30rpx;
+}
+
+.m-led_title {
+  margin-top: 10rpx;
+  margin-bottom: 10rpx;
+  padding-left: 30rpx;
+  padding-right: 30rpx;
+  color: white;
+  font-size: 26rpx;
+}
+
+.m-input {
+  margin-left:30rpx;
+  margin-right: 30rpx; 
+  margin-top: 10rpx;
+  height: 80rpx;
+  background-color: #FFFFFF;
+  line-height: 80rpx;
+  font-size: 17px;
+  border:2rpx solid gray;
+  border-radius: 10rpx;
+}
+
+.m-input .m-input_id{
+  line-height: 80rpx;
+  height: 80rpx;
+  padding-left: 10rpx;
+}
+
+.m-input .m-input_key{
+  line-height: 80rpx;
+  height: 80rpx;
+  padding-left: 10rpx;
+}
+
+.bt-confirm{
+  height: 80rpx;
+  margin-top: 80rpx;
+  margin-left: 30rpx;
+  margin-right: 30rpx;
+  background: #F3C935;
+  border-radius:40rpx; 
+  font-size: 30rpx;
+  line-height: 80rpx;
+  color: white;
+}

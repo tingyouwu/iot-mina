@@ -1,0 +1,24 @@
+<!--pages/config/config.wxml-->
+<view class="page-body">
+  <view class="page-section">
+     <view class="m-led_title">智能灯产品ID</view>
+     <view class="m-input">
+         <input class="m-input_id" 
+                placeholder="填写OneNet ProductID"
+                placeholder-style="font-size:25rpx">
+         </input>
+     </view>
+  </view>
+
+  <view class="page-section">
+     <view class="m-led_title">智能灯MasterKey</view>
+     <view class="m-input">
+         <input class="m-input_key" 
+                placeholder="填写OneNet ApiKey"
+                placeholder-style="font-size:25rpx">
+         </input>
+     </view>
+  </view>
+  
+  <button class="bt-confirm" open-type="getUserInfo" lang="zh_CN" bindgetuserinfo="onGotUserInfo">确定</button>
+</view>
